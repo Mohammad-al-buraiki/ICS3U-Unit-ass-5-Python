@@ -14,7 +14,7 @@ def main():
         try:
             if user_number != int(user_number):
                 print("")
-                for loop_counter in range (0, 10 + 1):
+                for loop_counter in range(0, 10 + 1):
                     print("{0} x {1} = {2}.".format(user_number, loop_counter,
                           loop_counter*(int(user_number))))
                     loop_counter = loop_counter + 1
